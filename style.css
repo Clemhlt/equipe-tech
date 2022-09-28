@@ -1,0 +1,85 @@
+Body { 
+	font-family:'Loved by the king', cursive;
+	font-size: 18px;
+	color:rgb(30, 30, 30); 
+	background-color: rgb(255, 255, 255);
+	margin: 0px;
+}
+
+a {
+	color: rgb(193, 103, 253);
+	font-size: 130%;
+}
+
+
+.banner { 
+		text-align:  center;
+		background-image: url("photo tech/BIENVENUE.png");
+		background-position: center; 
+		background-size: initial;
+		padding: 300px 0px;
+	}
+
+
+.card-white {
+	background-color: rgb(255, 255, 255);
+	width: 220px;
+	padding: 100px 200px 00px 200px;
+	text-align: left;
+	margin: auto;
+	margin-bottom: 100px;
+	border-radius: 200px;
+}
+
+.biere {
+	position: absolute;
+	top: 1000px;
+	right: 400px;
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+}
+
+
+
+
+.container {
+	width: 900px;
+	margin: auto;
+}
+
+.fin {
+	font-size: 130%;
+	text-align: center;
+
+}
+.bouton-fin { 
+	color: white;
+	background-color: rgba(36, 50, 133);
+	border-color: rgba(245, 165, 103, 0.8);
+	padding: 10px 25px;
+	margin-top: 20px;
+	border-radius: 2px;
+	font-size: 16px;
+	}
+
+
+.footer {
+	text-align: center;
+	background-color: rgba(36, 50, 133);
+	padding: 11px;
+	margin: 16px;
+}
+
+.footer p {
+	color: white;
+	font-size: 125%;
+	opacity: 100%;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+	opacity: 70%;
+}
